@@ -44,3 +44,8 @@ for frontend :
 inside location /{ proxy_pass http://127.0.0.1:8000;}
 for backend :
 inside location/api { proxy_pass http://127.0.0.1:8000/api;}
+
+## Restart nginx
+```
+sudo systemctl restart nginx
+```
